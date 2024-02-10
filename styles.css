@@ -1,0 +1,172 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 42px 10vw;
+}
+
+.first,
+.footer,
+.header{
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+}
+
+ul {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header h1{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.header a,
+.first p{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.first {
+  display: flex;
+  gap: 10%;
+  padding-bottom: 100px;
+}
+
+.first h1,
+.first p {
+  margin-bottom: 10px;
+}
+
+.first .container,
+.first .img {
+  flex: 1;
+}
+
+.first h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.first img {
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.second .container h1{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards{
+  padding-top: 50px;
+  display: flex;
+  gap: 10%;
+}
+
+.third {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.third .quote {
+  padding: 30px 50px;
+}
+
+.third {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.third p {
+  text-align: end;
+  align-self: flex-end;
+  padding-top: 20px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card{
+  text-align: center;
+  flex: 1;
+}
+
+.card img {
+  border-radius: 8px;
+  max-width:100%;
+  max-height:100%;
+}
+
+.container .btn {
+  border-color: white;
+  border-width: 3px;
+}
+
+.no-border {
+  border: none;
+}
+
+button {
+  border-radius: 8px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+button, 
+.fourth .container {
+  background-color: #3882f6;
+  color:#f9faf8
+}
+
+.fourth .container{
+  border-radius: 8px;
+  display: flex;
+  padding: 30px 10vw;
+}
+
+.fourth .text {
+  margin-right: auto;
+}
+
+.fourth h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.fourth p{
+  color: #e5e7eb;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
